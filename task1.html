@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="task1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-virus" viewBox="0 0 16 16">
+                    <path d="M8 0a1 1 0 0 1 1 1v1.402c0 .511.677.693.933.25l.7-1.214a1 1 0 0 1 1.733 1l-.701 1.214c-.256.443.24.939.683.683l1.214-.701a1 1 0 0 1 1 1.732l-1.214.701c-.443.256-.262.933.25.933H15a1 1 0 1 1 0 2h-1.402c-.512 0-.693.677-.25.933l1.214.701a1 1 0 1 1-1 1.732l-1.214-.7c-.443-.257-.939.24-.683.682l.701 1.214a1 1 0 1 1-1.732 1l-.701-1.214c-.256-.443-.933-.262-.933.25V15a1 1 0 1 1-2 0v-1.402c0-.512-.677-.693-.933-.25l-.701 1.214a1 1 0 0 1-1.732-1l.7-1.214c.257-.443-.24-.939-.682-.683l-1.214.701a1 1 0 1 1-1-1.732l1.214-.701c.443-.256.261-.933-.25-.933H1a1 1 0 1 1 0-2h1.402c.511 0 .693-.677.25-.933l-1.214-.701a1 1 0 1 1 1-1.732l1.214.701c.443.256.939-.24.683-.683l-.701-1.214a1 1 0 0 1 1.732-1l.701 1.214c.256.443.933.261.933-.25V1a1 1 0 0 1 1-1Zm2 5a1 1 0 1 0-2 0 1 1 0 0 0 2 0ZM6 7a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm1 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5-3a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z" />
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#wcuSection">
+                        Why Choose Us?
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#exploreMenuSection" id="navItem2">information on covid-19</a>
+                    <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">convey of instructions</a>
+                    <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="logo">
+    </div>
+    <div class="covid-container">
+        <div class="covid-header d-flex flex-row">
+            <div>
+                <h1 class="covid-heading-text"> All you need to know about covid-19 </h1>
+                <button class="button"> Know more </button>
+            </div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/medicalcare-img.png" />
+        </div>
+        <div class="covid-card-container covid-test-bg d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/coronavirus-img.png" class="covid-card-container">
+            <div class="covid-card-text-container">
+                <h1 class="covid-card-heading">
+                    COVID 19 TEST
+                </h1>
+                <p class="covid-card-description">
+                    if you think you have been exposed to novwl coronavirus (COVID-19)...more
+                </p>
+            </div>
+        </div>
+        <h1 class="sub-heading"> Symptoms </h1>
+        <div class="d-flex flex-row">
+            <div class="covid-card-container cough-symptom-bg">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/cough-img.png" />
+                <p class="symptom-text"> Dry Cough </p>
+            </div>
+            <div class="covid-card-container fever-symptom-bg">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/fever-img.png" />
+                <p class="symptom-text"> High Fever </p>
+            </div>
+            <div class="covid-card-container headache-symptom-bg">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/headache-img.png" />
+                <p class="symptom-text"> Headache </p>
+            </div>
+        </div>
+        <h1 class="sub-heading"> Vedios </h1>
+        <div class="covid-card-container covid-vedio-bg d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/doctor-img.png" />
+            <div class="covid-card-container">
+                <h1 class="covid-card-heading"> To prevent the spread of...</h1>
+                <p class="covid-card-description">
+                    If you think you have been exposed to novel corona coronavirus
+                    (COVID-19)
+                </p>
+                <button class="button"> Watch Vedio </button>
+            </div>
+        </div>
+    </div>
+    <div class="bg_container pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="text-center text-md-left">
+
+                        <div class="d-flex flex-row justify-content-center justify-content-md-start mt-2 mb-2">
+                            <div class="icon_container">
+                                <i> <a href="#" class="fa fa-google"> </a> </i>
+                            </div>
+                            <div class="icon_container">
+                                <i> <a href="#" class="fa fa-twitter"></a> </i>
+                            </div>
+                            <div class="icon_container">
+                                <i> <a href="#" class="fa fa-instagram"></a> </i>
+                            </div>
+                            <div class="icon_container">
+                                <i> <a href="#" class="fa fa-linkedin"></a> </i>
+                            </div>
+                        </div>
+                        <p class="p"> Hayathnagar, Hyderabad, India.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h1>Get to know More about COVID-19</h1>
+                    <p>
+                        instructions <br />
+                        Career point of view <br />
+                        programs <br />
+                        Contact helpline
+                    </p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h1>Contact with Us</h1>
+                    <p>
+                        Facebook <br />
+                        Twitter <br />
+
+                        Instagram <br />
+                    </p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <h1>Let Us Help You</h1>
+                    <p>
+                        Contact: </br>
+                        +91 1234688632<br />
+                        message: </br>
+                        +91 5421578578<br />
+                        Help Centre <br />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

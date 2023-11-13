@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.covid-contanier {
+    border-style: solid;
+    border-width: 5px;
+    color: #0967d219;
+}
+
+.covid-header {
+    margin: 15px;
+}
+
+.covid-heading-text {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button {
+    color: #ffffff;
+    font-family: "Roboto";
+    width: 85px;
+    height: 30px;
+    border-radius: 12px;
+    border-width: 0px;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #0967d2;
+}
+
+.covid-card-container {
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.covid-test-bg {
+    background-color: #0967d219;
+    font-weight: 500;
+}
+
+.covid-card-image {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+}
+
+.covid-card-text-container {
+    padding: 5px;
+    font-weight: 500;
+}
+
+.covid-card-heading {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.covid-card-description {
+    color: #707070;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sub-heading {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.cough-symptom-bg {
+    background-color: #3ebd93;
+    color: white;
+}
+
+.fever-symptom-bg {
+    background-color: #e668a7;
+    color: white;
+}
+
+.headache-symptom-bg {
+    background-color: #a368fc;
+    color: white;
+}
+
+.symptom-text {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+    margin: 5px;
+    color: #ffffff;
+}
+
+.covid-vedio-bg {
+    background-color: #e12d3919;
+}
+
+.bg_container {
+    background-color: lightgrey;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border-width: 0px;
+}
+
+.img {
+    height: 50px;
+}
+
+.icon_container {
+    background-color: #152c3e;
+    height: 40px;
+    width: 40px;
+    padding-top: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.icon {
+    color: #5a7184;
+}
+
+.p {
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+h1 {
+    color: #5a7184;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    color: #5a7184;
+    font-size: 16px;
+}
+
+hr {
+    background-color: #5a7184;
+}
+
+.logo {
+    padding: 30px;
+}
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
